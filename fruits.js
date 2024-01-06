@@ -14,3 +14,15 @@ basketHeading.style.color = 'green';
 const greeting = document.getElementById('thanks');
 greeting.innerHTML ='<p>Please visit us again</p>';
 
+// --Bg color yellow-->
+const fruitLists = document.getElementsByClassName('fruit');
+fruitLists[2].style.backgroundColor = 'yellow';
+for (let i = 0; i < fruitLists.length; i++) {
+      fruitLists[i].style.fontWeight = 'bold';
+    }
+// list color & font changed
+const list = document.getElementsByTagName('li');
+list[3].style.color  ='blue';
+for(let i =0; i<list.length;i++){
+    list[i].style.fontStyle = 'italic';
+}

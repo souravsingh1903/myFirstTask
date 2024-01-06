@@ -40,6 +40,7 @@ public class Main
 {
    
 //    main class
+// new brannch added
      public static void main(String[]args)
     {
         Scanner sc=new Scanner(System.in);

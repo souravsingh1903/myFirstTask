@@ -63,3 +63,24 @@ const evenSelectors = document.querySelectorAll('.fruit:nth-child(even)');
 
 
 // Write answer to the questions asked below:
+// Create elements
+// Write your code below:
+const head3 = document.createElement('h3');
+const headNode = document.createTextNode('Buy high quality organic fruits online');
+head3.appendChild(headNode);
+head3.style.fontStyle = 'italic';
+
+const div = document.getElementsByTagName('div');
+const firstDiv = div[0];
+firstDiv.appendChild(head3);
+
+const para = document.createElement('p');
+const paraNode = document.createTextNode('Total fruits: 4');
+para.appendChild(paraNode);
+
+const divs = document.getElementsByTagName('div');
+const secondDiv = divs[1];
+
+const fruits = document.querySelector('.fruits');
+secondDiv.insertBefore(para,fruits);
+para.id = 'fruits-total';
